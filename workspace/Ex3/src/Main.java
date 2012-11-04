@@ -32,40 +32,40 @@ public class Main {
         Integer[] sum = {sum1, sum2, sum3, sum4, sum5, sum6, sum7};
         // Fragment #1
         for ( int i = 0; i < n; i ++)
-            sum1++;
+            sum[0]++;
 
         // Fragment #2
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n; j ++)
-                sum2++;
+                sum[1]++;
 
         // Fragment #3
         for ( int i = 0; i < n; i ++)
             for ( int j = i; j < n; j ++)
-                sum3++;
+                sum[2]++;
 
         // Fragment #4
         for ( int i = 0; i < n; i ++)
             sum4 ++;
             for ( int j = 0; j < n; j ++)
-                sum4 ++;
+                sum[3]++;
 
         // Fragment #5
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n*n; j ++)
-            sum5++;
+            sum[4]++;
 
         // Fragment #6
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < i; j ++)
-                sum6++;
+                sum[5]++;
 
         // Fragment #7
         for ( int i = 1; i < n; i ++)
             for ( int j = 0; j < n*n; j ++)
                 if (j % i == 0)
                    for (int k = 0; k < j; k++)
-                       sum7++;
+                       sum[6]++;
         
         	String s= "";
 	        for(int i = 0; i < sum.length; i++) {
