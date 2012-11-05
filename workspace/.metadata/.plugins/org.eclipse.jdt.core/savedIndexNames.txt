@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.126+C:\Users\Charlie\Documents\GitHub\Ex3\workspace\.metadata\.plugins\org.eclipse.jdt.core
 163172794.index
 4108727661.index
@@ -10,3 +11,17 @@ INDEX VERSION 1.126+C:\Users\Charlie\Documents\GitHub\Ex3\workspace\.metadata\.p
 3065916431.index
 305854171.index
 30765161.index
+=======
+INDEX VERSION 1.126+/home/fuzzle/git/Ex3/workspace/.metadata/.plugins/org.eclipse.jdt.core
+925624498.index
+1654635368.index
+2889915287.index
+2686503099.index
+3223902160.index
+1193566714.index
+1393721363.index
+1796948596.index
+516116778.index
+2040264796.index
+1189062746.index
+>>>>>>> e99f4dd63168ddf6329be4260fef3e3f02f4293f
