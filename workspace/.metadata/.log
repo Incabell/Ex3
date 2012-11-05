@@ -7,3 +7,12 @@ Command-line arguments:  -os linux -ws gtk -arch x86
 
 !ENTRY org.eclipse.ui.intro 4 0 2012-11-04 15:33:17.492
 !MESSAGE An RSS feed "http://www.eclipse.org/home/eclipsenews.rss" is malformed. News from this site is temporarily unavailable.
+!SESSION 2012-11-04 15:49:44.155 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_04
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\Charlie\Documents\GitHub\Ex3\workspace -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-04 15:49:45.325
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
