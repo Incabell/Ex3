@@ -33,32 +33,38 @@ public class Main {
         // Fragment #1
         for ( int i = 0; i < n; i ++)
             sum[0]++;
+        System.out.println(sum[0]);
 
         // Fragment #2
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n; j ++)
                 sum[1]++;
+        System.out.println(sum[1]);
 
         // Fragment #3
         for ( int i = 0; i < n; i ++)
             for ( int j = i; j < n; j ++)
                 sum[2]++;
+        System.out.println(sum[2]);
 
         // Fragment #4
         for ( int i = 0; i < n; i ++)
             sum4 ++;
             for ( int j = 0; j < n; j ++)
                 sum[3]++;
+        System.out.println(sum[3]);
 
         // Fragment #5
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n*n; j ++)
             sum[4]++;
+        System.out.println(sum[4]);
 
         // Fragment #6
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < i; j ++)
                 sum[5]++;
+        System.out.println(sum[5]);
 
         // Fragment #7
         for ( int i = 1; i < n; i ++)
@@ -66,6 +72,7 @@ public class Main {
                 if (j % i == 0)
                    for (int k = 0; k < j; k++)
                        sum[6]++;
+        System.out.println(sum[6]);
         
         	String s= "";
 	        for(int i = 0; i < sum.length; i++) {
