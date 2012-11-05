@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 /**
  *
  * @author Charlene Kritschmar, Lucie Kaffee
@@ -25,43 +25,59 @@ public class Main {
     }
    
     public static void main(String[] args){
-        int n = 10;
-        int sum = 0;
+    	Scanner scan = new Scanner(System.in);
+    	System.out.println("Value for n? ");
+        int n = scan.nextInt();
+        int sum1 = 0, sum2 = 0, sum3 = 0, sum4 = 0, sum5 = 0, sum6 = 0, sum7 = 0;
+        Integer[] sum = {sum1, sum2, sum3, sum4, sum5, sum6, sum7};
         // Fragment #1
         for ( int i = 0; i < n; i ++)
-            sum++;
+            sum[0]++;
+        System.out.println(sum[0]);
 
         // Fragment #2
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n; j ++)
-                sum++;
+                sum[1]++;
+        System.out.println(sum[1]);
 
         // Fragment #3
         for ( int i = 0; i < n; i ++)
             for ( int j = i; j < n; j ++)
-                sum++;
+                sum[2]++;
+        System.out.println(sum[2]);
 
         // Fragment #4
         for ( int i = 0; i < n; i ++)
-            sum ++;
+            sum4 ++;
             for ( int j = 0; j < n; j ++)
-                sum ++;
+                sum[3]++;
+        System.out.println(sum[3]);
 
         // Fragment #5
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < n*n; j ++)
-            sum++;
+            sum[4]++;
+        System.out.println(sum[4]);
 
         // Fragment #6
         for ( int i = 0; i < n; i ++)
             for ( int j = 0; j < i; j ++)
-                sum++;
+                sum[5]++;
+        System.out.println(sum[5]);
 
         // Fragment #7
         for ( int i = 1; i < n; i ++)
             for ( int j = 0; j < n*n; j ++)
                 if (j % i == 0)
                    for (int k = 0; k < j; k++)
-                       sum++;
+                       sum[6]++;
+        System.out.println(sum[6]);
+        
+        	String s= "";
+	        for(int i = 0; i < sum.length; i++) {
+	        	s += " " + sum[i];
+	        }
+        System.out.println("For the value " + n + " for n, the steps of execution for the different functions are:" + s);
     }
 }
